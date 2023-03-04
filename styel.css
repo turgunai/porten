@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* height: 100vh; */
+    font-family: 'PT Sans', sans-serif;
+}
+.main{
+    height: 100vh;
+}
+header{
+    background-color: #0F0F0F;
+    height: 10%;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.container > img{
+    width: 104px;
+    height: 49px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+header a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #969696;
+    text-decoration: none;
+}
+header .container div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+main{
+    background-image: url(./Rectangle\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90%;
+    color: white;
+}
+main div{
+   width: 20%;
+   height: 50%;
+    border: 4px solid white;
+}
+main div p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-top: 2px solid white;
+    margin-top: 10px;
+    padding-top: 8px;
+}
+main div, main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main > p{
+    width: 50%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+   /* start season  */
+.season{
+    background-color: #000000;
+    color: white;
+}
+.top, .bottom{
+    height: 70vh;
+    display: flex;
+}
+.season2021{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.newCollection{
+    width: 45%;
+    height: 100%;
+    background-image: url(./Rectangle\ 8.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 5%;
+}
+.newCollection hr{
+    margin: 30px 0;
+}
+.clocks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.clock div{
+    background-color: #191B1C;
+    padding: 55px 20px;
+}
+hr{
+    width: 120px;
+}
+.season h1, section .container > h1{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.clock div + p{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.clock > div > img{
+    width: 170px;
+    height: 169px;
+}
+.costume{
+    background-image: url(./Rectangle\ 9\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 45%;
+}
+.col2018{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+.col2018 p{
+    width: 50%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center; 
+    color: #FFFFFF;
+    
+}
+.col2018 button, .newCollection button{
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.col2018 h1{
+    font-weight: 400;
+}
+.new{
+    padding: 120px 0;
+    background-color: #000000;
+    color: white;
+}
+.new hr{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.new .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new .clocks{
+    margin-bottom: 40px;
+}
+header .container > a img{
+    width: 24px;
+}
+header .container > a{
+    display: none;
+}
+.main5{
+    width: 100%;
+    height: 362px;
+    background: #0F0F0F;
+    }
+    .main5 h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 60px;
+    margin-left: 0px;
+    }
+    .main5 hr{
+        width: 120px;
+height: 0px;
+border: 1px solid #FFFFFF;
+margin-top: 88px;
+margin-left: 820px;
+}
+.brend{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.brends4{
+    margin-right: 50px;
+}
+.main6{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./Rectangle\ 15.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+ }
+ .main6 >div{
+     width: 300px;
+ }
+ .div1 p{
+     font-family: 'Playfair Display';
+     font-weight: 400;
+     font-size: 24px;
+     color: #FFFFFF;
+     width: 151px;
+     height: 32px;
+     
+     
+ 
+ }
+ .div1 h1{
+     font-family: 'PT Sans';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 150%;
+     color: #FFFFFF;
+     margin-top: 40;
+     width: 350px;
+     height: 147px;
+ }
+ 
+ .div2 span{
+ width: 142px;
+ height: 32px;
+ font-family: 'Playfair Display';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 32px;
+ text-transform: uppercase;
+ color: #FFFFFF;
+ margin-bottom: 120px;
+ }
+ .entp{
+ display: flex;
+ margin-bottom: 80;
+ justify-content: space-between;
+ }
+ .entp2{
+     display: flex;
+     margin-bottom: 60;
+     justify-content: space-between;
+     margin-top: 40px;
+ }
+ .but1{
+ width: 70px;
+ height: 41px;
+ background: #0F0F0F;
+ color: white;
+ }
+ .but2{
+     width: 98px;
+     height: 41px;
+     background: #0F0F0F;
+     color: white;
+     }
+     .but3{
+         width: 79px;
+         height: 41px;
+         background: #0F0F0F;
+         color: white;
+         }
+         .but4{
+             width: 164px;
+             height: 41px;
+             background: #0F0F0F;
+             color: white;
+             }
+             .but5{
+                 width: 91px;
+                 height: 41px;
+                 background: #0F0F0F;
+                 color: white;
+                 }
+ 
+ .div3 span{
+     font-family: 'Playfair Display';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 32px;
+      text-transform: uppercase;
+     color: #FFFFFF;
+    margin-bottom: 50px;
+     
+ }
+ .div3 h1{
+     font-family: 'PT Sans';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 150%;
+     color: #FFFFFF;
+     
+ }
+ .up{
+     display: flex;
+     align-items: center;
+ }
+ .up input{
+     width: 210px;
+     height: 42px;
+     background: rgba(255, 255, 255, 0.4);
+     padding-left: 10px;
+     outline: 0;
+ }
+ .up input::placeholder{
+     color: rgb(97, 95, 95);
+ }
+ .up button{
+     width: 140px;
+     height: 41px;
+     background: #0F0F0F;
+     color: white;
+ }
+ @media (max-width: 576px){
+.container > div{
+display: none;
+}
+.container > img{
+width: 80px;
+height: 70px;
+}
+main > div{
+    width: 40%;
+    height: 200px;
+}
+main > div > img{
+    width: 135px;
+    height: 35px;
+}
+main > p{
+ width: 80%;
+height: 1%;
+}
+.top, .bottom{
+    display: block;
+}
+.clocks{
+    display: block;
+}
+.brend{
+    display: block;
+}
+.main6{
+    display: block;
+}
+.entp{
+    display: block;
+}
+.entp2{
+    display: block;
+}
+.up{
+    display: block;
+}
+
+}
+
+ @media (max-width: 775px){}
+ @media (max-width: 992px){}
+@media (max-width: 772px){}
